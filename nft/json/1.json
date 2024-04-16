@@ -1,0 +1,13 @@
+{
+	"name": "G314 Genesis NFT (Test)",
+	"description": " This is G314  first test NFT,
+	"image": "https://raw.githubusercontent.com/mtanxchen/G314/main/nft/image/1.jpg",
+	"external_link": "https://nft.bsc-game314.com",
+	"attributes": [{
+		"trait_type": "",
+		"value": ""
+	},{
+	  "trait_type": "cid",
+    "value": "1001"
+	}]
+}
