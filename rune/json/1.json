@@ -4,7 +4,7 @@
 	"desc_cn": "这是第一款G314推出的RUNE符文，具有CID10002游戏的入场权与游戏额外的奖励提成。提成提高20%",
 	"desc_en": "This is the first NFT collectible launched by G314, which has the right to enter the CID10002 game and additional game reward commissions. Commission increased by 20%",
 	"image": "https://raw.githubusercontent.com/mtanxchen/G314/main/nft/image/1.jpg",
-  "total": 500,
+	"total": 500,
 	"external_link": "https://nft.bsc-game314.com",
 	"attributes": [{
 		"trait_type": "",
