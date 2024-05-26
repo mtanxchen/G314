@@ -47,7 +47,7 @@ abstract contract ERC314 is IEERC314{
 
     address public _gamePoolAddress = address(0x8967057D8474C2578de9C86b6178E21b5E2cA4eE);
 
-    uint256 public taxFee = 200;
+    uint256 private taxFee = 200;
 
 
     modifier onlyOwner() {
