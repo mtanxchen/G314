@@ -11,7 +11,7 @@
  * date 2024-05-22
  */
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity 0.8.23;
 
 interface IEERC314 {
     event Transfer(address indexed from, address indexed to, uint256 value);
@@ -67,8 +67,8 @@ abstract contract ERC314 is IEERC314{
         owner = msg.sender;
         tradingEnable = false;
 
-        _balances[msg.sender] = (totalSupply_ * 90) / 100;
-        uint256 liquidityAmount = totalSupply_ - _balances[msg.sender] - _balances[_gamePoolAddress];
+        _balances[msg.sender] = (_totalSupply * 90) / 100;
+        uint256 liquidityAmount = _totalSupply - _balances[msg.sender];
         _balances[address(this)] = liquidityAmount;
         liquidityAdded = false;
     }
